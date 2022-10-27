@@ -1,15 +1,10 @@
 {
-    "name": "zver/home-work-for-lesson-ten",
     "autoload": {
         "psr-4": {
-            "": "src/"
+            "App\\": "src/"
         }
     },
-    "authors": [
-        {
-            "name": "Serhii",
-            "email": "serhii.lohachov@gmail.com"
-        }
-    ],
-    "require": {}
+    "require-dev": {
+        "friendsofphp/php-cs-fixer": "^3.12"
+    }
 }

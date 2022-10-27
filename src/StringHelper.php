@@ -1,6 +1,6 @@
 <?php
 
-namespace StringHelper;
+namespace App;
 
 class StringHelper
 {
@@ -23,11 +23,11 @@ class StringHelper
 
     public function startsWith($string)
     {
-        return str_starts_with($this->string, $string);
+        return (str_starts_with($this->string, $string)) ? "true" : "false";
     }
 
     public function endWith($string)
     {
-        return str_ends_with($this->string, $string);
+        return (str_ends_with($this->string, $string)) ? "true" : "false";
     }
 }
